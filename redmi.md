@@ -200,3 +200,143 @@ const someAdjective = "awesome";
 let myStr = "Learning to code is ";
 myStr+=someAdjective
 ```
+<a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/find-the-length-of-a-string">31.Appending Variables to Strings</a>
+
+```js
+let lastNameLength = 0;
+const lastName = "Lovelace";
+lastNameLength = lastName.length;
+```
+<a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-first-character-in-a-string">32.Use Bracket Notation to Find the First Character in a String</a>
+
+```js
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+firstLetterOfLastName = lastName[0];
+```
+<a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understand-string-immutability">33.Understand String Immutability</a>
+
+```js
+let myStr = "Jello World";
+myStr = "Hello World";
+```
+<a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-character-in-a-string">34.Use Bracket Notation to Find the Nth Character in a String</a>
+
+```js
+const lastName = "Lovelace";
+const thirdLetterOfLastName = lastName[2];
+```
+<a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-last-character-in-a-string">35.Use Bracket Notation to Find the Last Character in a String</a>
+
+```js
+const lastName = "Lovelace";
+const lastLetterOfLastName = lastName[lastName.length - 1];
+```
+<a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string">36.Use Bracket Notation to Find the Nth-to-Last Character in a String</a>
+
+```js
+const lastName = "Lovelace";
+const secondToLastLetterOfLastName = lastName[lastName.length - 2];
+```
+<a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/word-blanks">37.Word Blanks</a>
+
+```js
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+const wordBlanks = "My " +myNoun + " is " + myAdjective + " and it can " + myVerb + ", jump " + myAdverb ;
+```
+<a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/nest-one-array-within-another-array">39.Nest one Array within Another Array</a>
+
+```js
+const myArray = [["Bulls", 23], ["White Sox", 45]];
+```
+<a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/access-array-data-with-indexe">40.Access Array Data with Indexes</a>
+
+```js
+const myArray = ["myArray", 60, 70];
+const myData = myArray[0]
+```
+# [41.Modify Array Data With Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/modify-array-data-with-indexes)
+
+```js
+const myArray = [18, 64, 99];
+myArray[0] = 45
+```
+# [42.Access Multi-Dimensional Arrays With Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/access-multi-dimensional-arrays-with-indexes)
+
+```js
+const myArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+const myData = myArray[2][1];
+```
+
+# [43.Manipulate Arrays With push Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-push)
+
+```js
+const myArray = [["John", 23], ["cat", 2]];
+myArray.push(["dog", 3])
+```
+
+# [44.Manipulate Arrays With pop Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-pop)
+
+```js
+const myArray = [["John", 23], ["cat", 2]];
+const removedFromMyArray = myArray.pop()
+```
+# [45.Manipulate Arrays With shift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-shift)
+
+```js
+const myArray = [["John", 23], ["dog", 3]];
+const removedFromMyArray = myArray.shift()
+```
+
+# [46.Manipulate Arrays With unshift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-unshift)
+
+```js
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+myArray.unshift(["Paul", 35])
+```
+# [47.Shopping List](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/shopping-list)
+
+```js
+let myList = [
+  ["Apples", 5],
+  ["Bananas", 10],
+  ["Milk", 2],
+  ["Bread", 1],
+  ["Eggs", 12]
+];
+```
+
+# [48.Write Reusable JavaScript with Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)
+
+```js
+ function reusableFunction(){
+   console.log("Hi World")
+ }
+ reusableFunction()
+```
+# [49.Passing Values to Functions with Arguments](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/passing-values-to-functions-with-arguments)
+
+```js
+function functionWithArgs(num1,num2){
+console.log(num1 + num2)
+}
+functionWithArgs(12,12) 
+```
+
+# [50.Return a Value from a Function with Return](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return)
+
+```js
+function timesFive(a){
+  return a * 5
+}
+timesFive(2)
+```
