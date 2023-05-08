@@ -258,13 +258,13 @@ const myArray = [["Bulls", 23], ["White Sox", 45]];
 const myArray = ["myArray", 60, 70];
 const myData = myArray[0]
 ```
-# [41.Modify Array Data With Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/modify-array-data-with-indexes)
+## [41.Modify Array Data With Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/modify-array-data-with-indexes)
 
 ```js
 const myArray = [18, 64, 99];
 myArray[0] = 45
 ```
-# [42.Access Multi-Dimensional Arrays With Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/access-multi-dimensional-arrays-with-indexes)
+## [42.Access Multi-Dimensional Arrays With Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/access-multi-dimensional-arrays-with-indexes)
 
 ```js
 const myArray = [
@@ -276,34 +276,34 @@ const myArray = [
 const myData = myArray[2][1];
 ```
 
-# [43.Manipulate Arrays With push Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-push)
+## [43.Manipulate Arrays With push Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-push)
 
 ```js
 const myArray = [["John", 23], ["cat", 2]];
 myArray.push(["dog", 3])
 ```
 
-# [44.Manipulate Arrays With pop Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-pop)
+## [44.Manipulate Arrays With pop Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-pop)
 
 ```js
 const myArray = [["John", 23], ["cat", 2]];
 const removedFromMyArray = myArray.pop()
 ```
-# [45.Manipulate Arrays With shift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-shift)
+## [45.Manipulate Arrays With shift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-shift)
 
 ```js
 const myArray = [["John", 23], ["dog", 3]];
 const removedFromMyArray = myArray.shift()
 ```
 
-# [46.Manipulate Arrays With unshift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-unshift)
+## [46.Manipulate Arrays With unshift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-unshift)
 
 ```js
 const myArray = [["John", 23], ["dog", 3]];
 myArray.shift();
 myArray.unshift(["Paul", 35])
 ```
-# [47.Shopping List](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/shopping-list)
+## [47.Shopping List](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/shopping-list)
 
 ```js
 let myList = [
@@ -315,7 +315,7 @@ let myList = [
 ];
 ```
 
-# [48.Write Reusable JavaScript with Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)
+## [48.Write Reusable JavaScript with Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)
 
 ```js
  function reusableFunction(){
@@ -323,7 +323,7 @@ let myList = [
  }
  reusableFunction()
 ```
-# [49.Passing Values to Functions with Arguments](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/passing-values-to-functions-with-arguments)
+## [49.Passing Values to Functions with Arguments](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/passing-values-to-functions-with-arguments)
 
 ```js
 function functionWithArgs(num1,num2){
@@ -333,7 +333,7 @@ functionWithArgs(12,12)
 ```
 
 
-# [50.Return a Value from a Function with Return](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return)
+## [50.Return a Value from a Function with Return](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return)
 
 ```js
 function timesFive(a){
@@ -341,7 +341,7 @@ function timesFive(a){
 }
 timesFive(2)
 ```
-# [51.Global Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions)
+## [51.Global Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions)
 
 ```js
 const myGlobal = 10
@@ -359,7 +359,7 @@ function fun2() {
   console.log(output);
 }
 ```
-# [52.Local Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/local-scope-and-functions)
+## [52.Local Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/local-scope-and-functions)
 
 ```js
 function myLocalScope() {
@@ -369,7 +369,7 @@ function myLocalScope() {
 myLocalScope();
 console.log('outside myLocalScope', myVar);
 ```
-# [53.Global vs. Local Scope in Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-vs--local-scope-in-functions)
+## [53.Global vs. Local Scope in Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-vs--local-scope-in-functions)
 
 ```js
 const outerWear = "T-Shirt";
@@ -380,7 +380,7 @@ function myOutfit() {
 myOutfit();
 ```
 
-# [54.Understanding Undefined Value returned from a Function](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-undefined-value-returned-from-a-function)
+## [54.Understanding Undefined Value returned from a Function](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-undefined-value-returned-from-a-function)
 
 ```js
 let sum = 0;
@@ -394,7 +394,7 @@ addThree();
 addFive();
 ```
 
-# [55.Assignment with a Returned Value](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/assignment-with-a-returned-value)
+## [55.Assignment with a Returned Value](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/assignment-with-a-returned-value)
 
 ```js
 function processArg(num) {
@@ -403,7 +403,7 @@ function processArg(num) {
 const processed = processArg(7)
 ```
 
-# [56.Stand in Line](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/stand-in-line)
+## [56.Stand in Line](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/stand-in-line)
 
 ```js
   function nextInLine(arr, item) {
@@ -416,14 +416,14 @@ console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
 ```
-# [57.Understanding Boolean Values](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-boolean-values)
+## [57.Understanding Boolean Values](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-boolean-values)
 
 ```js
 function welcomeToBooleans() {
   return true; 
 }
 ```
-# [58.Use Conditional Logic with If Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-conditional-logic-with-if-statements)
+## [58.Use Conditional Logic with If Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-conditional-logic-with-if-statements)
 
 ```js
 function trueOrFalse(wasThatTrue) {
@@ -601,4 +601,303 @@ function testLogicalOr(val) {
 }
 testLogicalOr(15);
 
+```
+## 71[Introducing Else Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/introducing-else-statements)
+
+```js
+
+function testElse(val) {
+  let result = "";
+  // Only change code below this line
+
+  if (val > 5) {
+    result = "Bigger than 5";
+  }
+
+  else{
+    result = "5 or Smaller";
+  }
+  // Only change code above this line
+  return result;
+}
+
+testElse(4);
+
+```
+## 72[Introducing Else If Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/introducing-else-if-statements)
+
+```js
+
+function testElseIf(val) {
+  if (val > 10) {
+    return "Greater than 10";
+  }
+
+  else if  (val < 5) {
+    return "Smaller than 5";
+  }
+else{
+  return "Between 5 and 10";
+}
+}
+testElseIf(7);
+
+```
+## 73[Logical Order in If Else Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/logical-order-in-if-else-statements)
+
+```js
+function orderMyLogic(val) {
+  if (val < 10 && val > 5) {
+    return "Less than 10";
+  } else if (val < 5) {
+    return "Less than 5";
+  } else {
+    return "Greater than or equal to 10";
+  }
+}
+
+orderMyLogic(7);
+
+```
+## 74[Comparison with the Greater Than Or Equal To Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-greater-than-or-equal-to-operator)
+
+```js
+
+function testGreaterOrEqual(val) {
+  if (val >= 20) {  // Change this line
+    return "20 or Over";
+  }
+  if (val >= 10) {  // Change this line
+    return "10 or Over";
+  }
+  return "Less than 10";
+}
+testGreaterOrEqual(10);
+
+```
+## 75[Comparison with the Greater Than Or Equal To Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-greater-than-or-equal-to-operator)
+
+```js
+
+function testGreaterOrEqual(val) {
+  if (val >= 20) {  // Change this line
+    return "20 or Over";
+  }
+  if (val >= 10) {  // Change this line
+    return "10 or Over";
+  }
+  return "Less than 10";
+}
+testGreaterOrEqual(10);
+
+```
+
+
+## 76[Logical Order in If Else Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/logical-order-in-if-else-statements)
+
+**answer**
+
+```js
+function orderMyLogic(val) {
+  if (val < 10 && val >5) {
+    return "Less than 10";
+  } else if (val < 5) {
+    return "Less than 5";
+  } else {
+    return "Greater than or equal to 10";
+  }
+}
+
+orderMyLogic(7);
+```
+## 77[Chaining If Else Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/chaining-if-else-statements)
+
+**answer**
+
+```js
+function testSize(num) {
+if (num < 5) {
+  return "Tiny"
+} else if (num < 10) {
+  return 'Small'
+} else if (num < 15) {
+  return 'Medium'
+}  else if (num < 20) {
+  return 'Large'
+} 
+else {
+  return 'Huge'
+}
+}
+testSize(7);
+
+```
+## 78[Golf Code](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/golf-code)
+
+**answer**
+```js
+const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+
+function golfScore(par, strokes) {
+  if (strokes == 1) {
+    return "Hole-in-one!";
+  } else if (strokes <= par - 2) {
+    return "Eagle";
+  } else if (strokes == par - 1) {
+    return "Birdie";
+  } else if (strokes == par) {
+    return "Par";
+  } else if (strokes == par + 1) {
+    return "Bogey";
+  } else if (strokes == par + 2) {
+    return "Double Bogey";
+  } else {
+    return "Go Home!";
+  }
+}
+golfScore(5, 4);
+```
+## 79[Selecting from Many Options with Switch Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/selecting-from-many-options-with-switch-statements)
+**answer**
+```js
+function caseInSwitch(val) {
+  let answer = "";
+switch (val) {
+  case 1:
+    return "alpha";
+    break;
+  case 2:
+ return "beta";
+    break;
+     case 3:
+  return "gamma";
+    break;
+  case 4:
+    return "delta";
+    break;
+}
+  return answer;
+}
+caseInSwitch(1);
+```
+## 80[Adding a Default Option in Switch Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/adding-a-default-option-in-switch-statements)
+
+**answer**
+```js
+
+
+function switchOfStuff(val) {
+  var answer = "";
+  switch (val) {
+    case "a":
+      answer = "apple";
+      break;
+    case "b":
+      answer = "bird";
+      break;
+    case "c":
+      answer = "cat";
+      break;
+    default:
+      answer = "stuff";
+      break;
+  }
+    return answer;  
+  }
+console.log(switchOfStuff("c"));
+switchOfStuff(1);
+```
+
+
+
+## 81[Multiple Identical Options in Switch Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/multiple-identical-options-in-switch-statements)
+
+**answer**
+```js
+function sequentialSizes(val) {
+  let answer = "";
+switch (val) {
+  case 1:
+  case 2:
+  case 3:
+    answer = "Low";
+    break;
+  case 4:
+  case 5:
+  case 6:
+    answer = "Mid";
+    break;
+     case 7:
+  case 8:
+  case 9:
+    answer = "High";
+    break;
+}
+  return answer;
+}
+sequentialSizes(8);
+```
+
+
+
+## 82[Replacing If Else Chains with Switch](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/replacing-if-else-chains-with-switch)
+
+**answer**
+```js
+function chainToSwitch(val) {
+  let answer = "";
+switch (val) {
+  case "bob":
+    answer = "Marley";
+    break;
+  case 42:
+    answer = "The Answer";
+    break;
+      case 1:
+    answer = "There is no #1";
+    break;
+      case 99:
+    answer = "Missed me by this much!";
+    break;
+       case 7:
+    answer = "Ate Nine";
+    break;
+         case "John":
+    answer = "";
+      break;
+         case  156:
+    answer = "";
+    break;
+  default:
+    answer = "c";
+}
+  return answer;
+}
+chainToSwitch(7);
+```
+
+## 83[Returning Boolean Values from Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/returning-boolean-values-from-functions)
+
+**answer**
+```js
+function isLess(a, b) {
+    return a < b;
+}
+isLess(10, 15);
+```
+
+
+
+
+## 84[Return Early Pattern for Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-early-pattern-for-functions)
+
+**answer**
+```js
+function abTest(a, b) {
+  if (a < 0 || b < 0) {
+    return undefined;
+  }
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+console.log(abTest(-2,2));
 ```
